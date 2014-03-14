@@ -29,7 +29,7 @@ public class MovieController {
     @RequestMapping(value = "/movies", method = RequestMethod.GET)
     public String printMovieList(ModelMap model) {
         List<Movie> movieList = movieDao.findAllMovies();
-        model.addAttribute("movieList", movieList);
+        model.addAttribute("movieLists", movieList);
         return "movieList";
     }
 
