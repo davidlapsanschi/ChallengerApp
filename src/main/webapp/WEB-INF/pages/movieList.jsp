@@ -1,6 +1,6 @@
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<h2>Kriseos User Management </h2>
 <%--<%@ page isELIgnored="false" %>--%>
+
 
 <form action="movies/saveMovie" method="post">
     <label for="movieId">movieId</label>

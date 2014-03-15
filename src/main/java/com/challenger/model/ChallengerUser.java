@@ -18,6 +18,7 @@ public class ChallengerUser {
     private Long userId;
     private String username;
     private String password;
+    private Integer points;
 
     public Long getUserId() {
         return userId;
@@ -43,4 +44,11 @@ public class ChallengerUser {
         this.password = password;
     }
 
+    public Integer getPoints() {
+        return points;
+    }
+
+    public void setPoints(Integer points) {
+        this.points = points;
+    }
 }
