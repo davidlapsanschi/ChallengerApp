@@ -1,49 +1,120 @@
-<!DOCTYPE html>
-<html><head>
-<title>Challenger</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<meta name="description" content="" />
-<meta name="copyright" content="" />
-<link rel="stylesheet" type="text/css" href="css/kickstart.css" media="all" />                  <!-- KICKSTART -->
-<link rel="stylesheet" type="text/css" href="style.css" media="all" />                          <!-- CUSTOM STYLES -->
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script type="text/javascript" src="js/kickstart.js"></script>                                  <!-- KICKSTART -->
-</head><body>
-<div >
-	<div class="gallery">
-	<a rel="gallery"><img width="90" height="95" src="minion.jpg"></a>
-	</div>
-</div>
-<div style="color:#34769D;
-    margin-left: 115px;
-    margin-top: -103px;
-    position: absolute;">
-	<h5>  DaveTheMinion<p>
-    <i class="icon-trophy"></i> 1455</p></h5>
-</div>
-	
-
+<%@include file="header.jsp" %>
 <!-- Menu Horizontal -->
 <ul class="menu">
-	<li><a href="home.jsp">Home</a></li>
-	<li><a href="events.jsp">Upcoming events</a></li>
-	<li><a href="challenges.jsp">Challenges</a></li>
-	<li  class="current" ><a href="achievments.jsp">Achievments</a></li>
-    <li><a href="ladder.jsp">Ladder</a></li>
+    <li><a href="home">Home</a></li>
+    <li><a href="events">Upcoming events</a></li>
+    <li><a href="challenges">Challenges</a></li>
+    <li class="current"><a href="achievements">Achievements</a></li>
+    <li><a href="ladder">Ladder</a></li>
 </ul>
 
-	 
+
 <div class="col_12">
-<h1>This is achievments!</h1>
-<h1>This is achievments!</h1><h1>This is achievments!</h1><h1>This is achievments!</h1><h1>This is achievments!</h1><h1>This is achievments!</h1><h1>This is achievments!</h1>
-</div>	
+
+    <div class="col_8 boxyBox column">
+
+        <div style="margin-left:0 !important;padding:5px;text-decoration: none;" id="cssmenu">
+            <ul>
+                <li class="greyStuff first"><a href="#"><span><button class="small red"><i class="icon-lock"></i> Locked</button> <i class="icon-magic"></i> You're a grumpy one, mr. Grinch!
+				   	
+				   </span>
+                </a></li>
+                <ul>
+        </div>
+        <h6 style="margin-left:10px;text-decoration: none;!important;color:#34769D"> You must gather 15000 points to unlock!</h6>
+
+        <h5 style="color:orange;margin-left: 10px;"><i class="icon-money"></i> Reward: Grumpy Supreme Lord Title <i class="icon-certificate"></i><i class="icon-certificate"></i><i class="icon-certificate"></i><i class="icon-certificate"></i><i class="icon-certificate"></i><i class="icon-certificate"></i><i class="icon-certificate"></i><i class="icon-certificate"></i></h5>
+
+
+    </div>
+
+    <div class="col_8 boxyBox column">
+
+        <div style="margin-left:0 !important;padding:5px;text-decoration: none;" id="cssmenu">
+            <ul>
+                <li class="first"><a href="#"><span>	<button class="small orange"><i class="icon-unlock"> </i> Unlocked</button><i class="icon-flag"></i> I rule this town!
+   
+				   </span>
+                </a></li>
+                <ul>
+        </div>
+        <h6 style="margin-left:10px;text-decoration: none;!important;color:#34769D"> You must gather 10000 points to unlock!</h6>
+        <h5 style="color:orange;margin-left: 10px;"><i class="icon-money"></i> Reward: Supreme Lord Title <i class="icon-certificate"></i><i class="icon-certificate"></i><i class="icon-certificate"></i><i class="icon-certificate"></i><i class="icon-certificate"></i><i class="icon-certificate"></i></h5>
+
+
+    </div>
+
+    <div class="col_8 boxyBox column">
+
+        <div style="margin-left:0 !important;padding:5px;text-decoration: none;" id="cssmenu">
+            <ul>
+                <li class="greyStuff first"><a href="#"><span><button class="small red"><i class="icon-lock"></i> Locked</button> <i class="icon-star"></i> Gentlemen, you had my curiosity...but now you have my attention.
+				   	
+				   </span>
+                </a></li>
+                <ul>
+        </div>
+        <h6 style="margin-left:10px;text-decoration: none;!important;color:#34769D"> You must gather 14000 points to unlock!</h6>
+
+        <h5 style="color:orange;margin-left: 10px;"><i class="icon-money"></i> Reward: City Official VIP Title <i class="icon-certificate"></i><i class="icon-certificate"></i><i class="icon-certificate"></i><i class="icon-certificate"></i><i class="icon-certificate"></i><i class="icon-certificate"></i><i class="icon-certificate"></i></h5>
+
+    </div>
+
+    <div class="col_8 boxyBox column">
+
+        <div style="margin-left:0 !important;padding:5px;text-decoration: none;" id="cssmenu">
+            <ul>
+                <li class="greyStuff first"><a href="#"><span><button class="small red"><i class="icon-lock"></i> Locked</button> <i class="icon-leaf"></i> But they will never take our freedom!
+				   	
+				   </span>
+                </a></li>
+                <ul>
+        </div>
+        <h6 style="margin-left:10px;text-decoration: none;!important;color:#34769D"> You must gather 30000 points to unlock!</h6>
+
+        <h5 style="color:orange;margin-left: 10px;"><i class="icon-money"></i> Reward: Tribe Leader Title <i class="icon-certificate"></i><i class="icon-certificate"></i><i class="icon-certificate"></i><i class="icon-certificate"></i><i class="icon-certificate"></i><i class="icon-certificate"></i><i class="icon-certificate"></i><i class="icon-certificate"></i><i class="icon-certificate"></i></h5>
+
+    </div>
+
+    <div class="col_8 boxyBox column">
+
+        <div style="margin-left:0 !important;padding:5px;text-decoration: none;" id="cssmenu">
+            <ul>
+                <li class="first"><a href="#"><span>	<button class="small orange"><i class="icon-unlock"> </i> Unlocked</button><i class="icon-group"></i>Work hard...play hard!
+   
+				   </span>
+                </a></li>
+                <ul>
+        </div>
+        <h6 style="margin-left:10px;text-decoration: none;!important;color:#34769D"> You must gather 5000 points to unlock!</h6>
+        <h5 style="color:orange;margin-left: 10px;"><i class="icon-money"></i> Reward: 200 points <i class="icon-gift"></i></h5>
+
+
+    </div>
+
+    <div class="col_8 boxyBox column">
+
+        <div style="margin-left:0 !important;padding:5px;text-decoration: none;" id="cssmenu">
+            <ul>
+                <li class="first"><a href="#"><span>	<button class="small orange"><i class="icon-unlock"> </i> Unlocked</button><i class="icon-pushpin"></i>The party doesn't start untill I walk in.
+   
+				   </span>
+                </a></li>
+                <ul>
+        </div>
+        <h6 style="margin-left:10px;text-decoration: none;!important;color:#34769D"> You must gather 1000 points to unlock!</h6>
+        <h5 style="color:orange;margin-left:10px;"><i class="icon-money"></i> Reward: Party Animal Title <i class="icon-certificate"></i></h5>
+
+
+    </div>
+
+</div>
 
 
 <!-- ===================================== START FOOTER ===================================== -->
 <div class="clear"></div>
 <div id="footer">
-&copy; Copyright 2014 All Rights Reserved. This website was built by Challenger Team: Miklos Albert, Silvana Albu and David Laspsanschi</a>
+    &copy; Copyright 2014 All Rights Reserved. This website was built by Challenger Team: Miklos Albert, Silvana Albu and David Laspsanschi</a>
 </div>
 
 </body></html>

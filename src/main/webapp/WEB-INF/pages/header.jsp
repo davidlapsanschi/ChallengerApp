@@ -21,7 +21,7 @@
 </head><body>
 <div >
     <div class="gallery">
-        <a rel="gallery"><img width="80" height="85" src="<c:url value="/resources/images/0.png" />"></a>
+        <a rel="gallery"><img width="70" height="85" src="<c:url value="/resources/images/0.png" />"></a>
     </div>
 </div>
 <div style="color:#34769D;
@@ -29,7 +29,7 @@
     margin-top: -113px;
     position: absolute;">
     <h6>  Albu Silvana<p>
-    </p><p style="color:#79980D"> <i class="icon-trophy"></i> 13455</p></h6><p></p>
+    </p><p style="color:#79980D"> <i class="icon-trophy"></i> <span class='score'>13455</span></p></h6><p></p>
 
     <h6 style="color:orange"> <i class="icon-certificate"></i> <i class="icon-certificate"></i> <i class="icon-certificate"></i> <i class="icon-certificate"></i> <i class="icon-certificate"></i> <i class="icon-certificate"></i> Supreme Lord</h6>
 </div>

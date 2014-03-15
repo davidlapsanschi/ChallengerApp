@@ -59,6 +59,39 @@ font-family: "Arimo", arial, verdana, sans-serif;
     margin-left: 40%;width: 157px;height: 69px;margin-bottom: 10px;
 }
 
+.magicCss3{
+    font-size: 15px;
+    height: 120px;
+    display: block;
+    color: #ffffff;
+    text-shadow: 0 1px 1px #000;
+    background: #565656;
+    background: -moz-linear-gradient(#2f98c9 0%, #2f98c9 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2f98c9), color-stop(100%,#2f98c9));
+    background: -webkit-linear-gradient(#2f98c9 0%, #2f98c9 100%);
+    background: linear-gradient(#2f98c9 0%, #2f98c9 100%);
+    border: 1px solid #2f98c9;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin-left: 40%;width: 219px;height: 69px;margin-bottom: 10px;
+}
+
+#cssmenu > ul > li.greyStuff > a {
+    background: grey !important;
+
+    color: #fff;
+    text-shadow: 0 1px 1px #000;
+    border: 1px solid grey !important;
+}
+
+#cssmenu > ul > li.greyStuff > a span {
+    border: 1px solid grey;
+}
+.boxyBox{
+    border: 1px #C1C1C1; margin: 9px; height:140px; -moz-box-shadow: 0 0 5px #888; -webkit-box-shadow: 0 0 5px#888; box-shadow: 0 0 5px #888;background: #fff;
+}
+
 button,
 a.btn,
 input[type="submit"],

@@ -38,7 +38,7 @@ box-shadow: 0 0 5px #888;">
 
         <div style="color:#34769D;     margin-left: 115px;     margin-top: -109px;      position: absolute;">
 
-            <p style="   font-size: 24px;">2</p><h6> Oltean Marius<p>Age: 32
+            <p style="   font-size: 24px;">2</p><h6>David Lapsanschi<p>Age: 22
 
         </p></h6></div>
         <div class="trophy">

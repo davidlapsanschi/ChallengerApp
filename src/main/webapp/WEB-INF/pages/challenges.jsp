@@ -10,8 +10,8 @@
 <div style="background:#fff;min-height:650px; width: 100%">
     <div class="challengesList" style="float:left; width: 70%; border-right: 1px solid #2f98c9; text-align: center">
         <h2>I still have to go to events related to ...</h2>
-        <div class="magicCss2" ><h4>DubStep</h4></div>
-        <div class="magicCss2" ><h4>Theater</h4></div>
+        <div class="magicCss3" ><h4>DubStep</h4></div>
+        <div class="magicCss3" ><h4>Theater</h4></div>
     </div>
     <div class="challengeYourself" style="float: right;width: 300px;position: absolute;left: 75%;top: 30%;text-align: center;">
         <div class="magicCss"><h3>Challenge Yourself</h3>
@@ -42,7 +42,7 @@
     $('.subcategories li span').click(function () {
         var name = $(this).html();
         var challenge = document.createElement('div');
-        challenge.setAttribute("class", "magicCss2");
+        challenge.setAttribute("class", "magicCss3");
         challenge.innerHTML="<h4>" + name + "</h4>";
         $(".challengesList").append(challenge);
     });
